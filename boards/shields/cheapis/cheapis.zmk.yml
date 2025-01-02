@@ -3,6 +3,7 @@ id: cheapis
 name: CHEAPIS
 type: shield
 url: https://github.com/ozkan
-requires: [pro_micro]
+requires: [nice_nano_v2]
 features:
   - keys
+  - studio
