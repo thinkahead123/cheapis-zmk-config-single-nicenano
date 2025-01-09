@@ -38,8 +38,14 @@
 
         question {
             bindings = <&kp QUESTION>;
-            key-positions = <29 28>;
-            layers = <1>;
+            key-positions = <28 27>;
+            layers = <0>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <28 29>;
+            layers = <0>;
         };
 
         /*
