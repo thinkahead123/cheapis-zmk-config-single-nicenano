@@ -36,6 +36,12 @@
             key-positions = <16 17 18>;
         };
 
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <29 28>;
+            layers = <1>;
+        };
+
         /*
         caps_word_combo {
 	    timeout-ms = <50>;
