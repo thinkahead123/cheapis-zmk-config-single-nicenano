@@ -37,13 +37,13 @@
         };
 
         question {
-            bindings = <&kp QUESTION>;
+            bindings = <&kp SLASH>;
             key-positions = <28 27>;
             layers = <0>;
         };
 
         slash {
-            bindings = <&kp SLASH>;
+            bindings = <&kp QUESTION>;
             key-positions = <28 29>;
             layers = <0>;
         };
