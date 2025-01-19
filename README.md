@@ -6,4 +6,5 @@
   参考：
       https://kbd.news/Cheapis-1852.html
       https://github.com/dotleon/cheapis
+      外壳：https://github.com/thinkahead123/cheapis-keyboard-case
       
