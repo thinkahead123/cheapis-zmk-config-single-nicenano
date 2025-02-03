@@ -25,12 +25,6 @@
     combos {
         compatible = "zmk,combos";
 
-        fn_mo {
-            timeout-ms = <50>;
-            key-positions = <32 33>;
-            bindings = <&mo 6>;
-        };
-
         enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
@@ -60,6 +54,16 @@
             layers = <0>;
         };
 
+        bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <13 14>;
+        };
+
+        rbracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <15 16>;
+        };
+
         /*
         caps_word_combo {
 	    timeout-ms = <50>;
@@ -86,14 +90,14 @@
         default_layer {
             label = "Base";
             bindings = <
-&hm ESCAPE Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm LCTRL G  &hm RCTRL H  &hm RSHFT J  &hm RGUI K  &hm LALT L  &kp SEMI  &kp Z  &kp X  &kp C  &kp V  &hm LA(LC(W)) B  &hm LG(LC(A)) N  &kp M  &kp COMMA  &kp DOT  &kp RETURN  &lt 1 TAB  &hm LEFT_GUI ENTER  &hm LC(SPACE) SPACE  &lt 4 BACKSPACE
+&hm ESCAPE Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &hm LALT S  &hm LGUI D  &hm LSHFT F  &hm LCTRL G  &hm RCTRL H  &hm RSHFT J  &hm RGUI K  &hm LALT L  &kp SEMI  &kp Z  &kp X  &kp C  &kp V  &hm LA(LC(W)) B  &hm LG(LC(A)) N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 1 TAB  &hm LEFT_GUI ENTER  &hm LC(SPACE) SPACE  &lt 4 BACKSPACE
             >;
         };
 
         numrow_layer {
             label = "Numrow";
             bindings = <
-&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp GRAVE  &kp TILDE  &kp MINUS  &kp UNDER  &kp LBKT  &kp RBKT  &kp PLUS  &kp EQUAL  &kp SQT  &kp DOUBLE_QUOTES  &trans  &trans  &kp PIPE  &kp BACKSLASH
+&kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp GRAVE  &kp TILDE  &kp MINUS  &kp UNDER  &kp PIPE  &kp BACKSLASH  &kp PLUS  &kp EQUAL  &kp SQT  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans
             >;
         };
 
