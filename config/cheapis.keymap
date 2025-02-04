@@ -74,6 +74,16 @@
             key-positions = <5 6>;
         };
 
+        tocolemak {
+            bindings = <&to 2>;
+            key-positions = <30 31>;
+        };
+
+        tobase {
+            bindings = <&to 0>;
+            key-positions = <32 33>;
+        };
+
         /*
         caps_word_combo {
 	    timeout-ms = <50>;
@@ -111,10 +121,9 @@
             >;
         };
 
-        sym_layer {
-            label = "Sym";
+        colemak {
             bindings = <
-&kp LBRC  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp RBRC  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &kp TILDE  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(BSLH)  &trans  &trans  &trans  &trans  &trans  &kp LS(N0)  &none  &trans  &trans
+&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -153,9 +162,10 @@
             >;
         };
 
-        colemak {
+        sym_layer {
+            label = "Sym";
             bindings = <
-&kp Q  &kp W  &kp F  &kp P  &kp B  &kp J  &kp L  &kp U  &kp Y  &kp SEMI  &kp A  &kp R  &kp S  &kp T  &kp G  &kp M  &kp N  &kp E  &kp I  &kp O  &kp Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp FSLH  &trans  &trans  &trans  &trans
+&kp LBRC  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp RBRC  &trans  &trans  &trans  &trans  &trans  &kp COLON  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS  &trans  &trans  &trans  &trans  &trans  &kp TILDE  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(BSLH)  &trans  &trans  &trans  &trans  &trans  &kp LS(N0)  &none  &trans  &trans
             >;
         };
 
